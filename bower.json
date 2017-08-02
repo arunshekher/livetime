@@ -1,0 +1,21 @@
+{
+  "name": "livetime",
+  "version": "0.0.2",
+  "homepage": "https://github.com/arunshekher",
+  "authors": [
+    "Arun S. Sekher <arunshekher@users.noreply.github.com>"
+  ],
+  "license": "AGPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "livestamp": "^1.1.2",
+    "moment": "^2.18.1"
+  }
+}

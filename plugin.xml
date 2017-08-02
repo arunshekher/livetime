@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="LiveTime" lan="LAN_PLUGIN_LIVETIME" version="0.0.1" date="2017-08-02" compatibility="2.0" installRequired="true" >
+	<author name="Arun S. Sekher" url="http://github.com/arunshekher" />
+	<summary>A time ago text auto-updating plugin for e107</summary>
+	<description lan="LAN_PLUGIN_LIVETIME_DIS">A time ago text auto-updating plugin for e107.</description>
+	<category>misc</category>
+	<keywords>
+		<word>timeago</word>
+		<word>time</word>
+		<word>live</word>
+	</keywords>
+	<screenshots>
+		<image></image>
+	</screenshots>
+	<adminLinks>
+		<link url='admin_config.php' description='Configure' icon='images/blank_32.png' iconSmall='images/blank_16.png' icon128="" primary='true' >LAN_CONGIGURE</link>
+		<link url="admin_config.php?mode=options" description="Configure Blank Prefs" icon="manage" >LiveTime Prefs</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name="livetime_active">1</pref>
+		<pref name="global_libs">0</pref>
+	</pluginPrefs>
+	<userClasses>
+		<class name="livetime_userclass" description="Blank Userclass Description" />
+	</userClasses>
+</e107Plugin>
