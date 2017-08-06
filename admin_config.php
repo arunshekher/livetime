@@ -5,6 +5,7 @@ if ( ! getperms("P")) {
 	exit;
 }
 
+e107::lan('livetime', 'admin', true);
 
 class livetime_admin extends e_admin_dispatcher
 {
@@ -52,11 +53,21 @@ class livetime_admin_ui extends e_admin_ui
 	}
 
 
-	public function customPage()
+	public function renderHelp()
 	{
-		$ns = e107::getRender();
-		$text = "Hello World!";
-		$ns->tablerender("Hello", $text);
+		$caption = LAN_LIVETIME_INFO_MENU_TITLE;
+		$text = LAN_LIVETIME_INFO_MENU_LOGO;
+		$text .= LAN_LIVETIME_INFO_MENU_SUBTITLE;
+		$text .= LAN_LIVETIME_INFO_MENU_REPO_URL;
+		$text .= LAN_LIVETIME_INFO_MENU_REPO_BUTTON_WATCH;
+		$text .= LAN_LIVETIME_INFO_MENU_REPO_BUTTON_STAR;
+		$text .= LAN_LIVETIME_INFO_MENU_REPO_BUTTON_ISSUE;
+		$text .= LAN_LIVETIME_INFO_MENU_SUBTITLE_DEV;
+		$text .= LAN_LIVETIME_INFO_MENU_DEV;
+		$text .= LAN_LIVETIME_INFO_MENU_REPO_BUTTON_FOLLOW;
+		$text .= LAN_LIVETIME_INFO_MENU_GITHUB_BUTTONS_SCRIPT;
+
+		return ['caption' => $caption, 'text' => $text];
 
 	}
 }
