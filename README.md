@@ -1,5 +1,5 @@
 # Livetime
-An e107 plugin that incorporate [Matt Bradley’s livestamp](https://github.com/mattbradley/livestampjs) javascript library and its dependency moment.js to e107 in global or local scope. 
+An e107 plugin that incorporate [Matt Bradley’s livestamp](https://github.com/mattbradley/livestampjs) javascript library and its dependency moment.js to e107 powered websites. 
 
 The awesome dev’s at e107 inc was kind enough to add support for this library to e107 core by means of a date function `e107::getParser()->toDate();` after [this feature request](https://github.com/e107inc/e107/issues/372).
 
