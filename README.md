@@ -6,4 +6,4 @@ The awesome dev’s at e107 inc was kind enough to add support for this library 
 ![livetime-demo3](https://user-images.githubusercontent.com/315195/29000187-47802a26-7a75-11e7-8209-570eea38d5d1.gif)
 
 # How to use
-Its just a matter for themers and plugin developers to use the above method to parse date in their projects and install this plugin rest is handled by the awesome javascript libraries called moment.js and livestamp.js that it makes use of.
+Its just a matter for e107 theme and plugin developers to use the above method to parse date in their projects and install this plugin rest is handled by the awesome javascript libraries called moment.js and livestamp.js that it makes use of.
