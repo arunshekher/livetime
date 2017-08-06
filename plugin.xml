@@ -10,7 +10,7 @@
 		<word>livetime</word>
 	</keywords>
 	<adminLinks>
-		<link url='admin_config.php' description='Configure' icon='images/blank_32.png' iconSmall='images/blank_16.png' icon128="" primary='true' >LAN_CONGIGURE</link>
+		<link url='admin_config.php' description='Configure' icon='images/livetime_32.png' iconSmall='images/livetime_16.png' icon128="images/livetime_128.png" primary='true' >LAN_CONGIGURE</link>
 	</adminLinks>
 	<pluginPrefs>
 		<pref name="livetime_active">1</pref>
