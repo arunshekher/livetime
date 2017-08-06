@@ -1,5 +1,5 @@
 <?php
-
+if (!defined('e107_INIT')) { exit; }
 $livetimePref = e107::getPlugPref('livetime');
 
 if ($livetimePref['livetime_active']) {
