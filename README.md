@@ -11,4 +11,4 @@ See the browser screen-cast gif animation below to see it in action, but 20x fas
 ![livetime-demo3](https://user-images.githubusercontent.com/315195/29000187-47802a26-7a75-11e7-8209-570eea38d5d1.gif)
 
 # How to use
-Its just a matter for e107 theme and plugin developers to use the above method to parse date in their projects and install this plugin rest is handled by the awesome javascript libraries called moment.js and livestamp.js that this plugin makes use of.
+Its just a matter for e107 theme and plugin developers to use the above mentioned date method to parse date in their e107 projects and install this plugin. Rest is handled by the awesome javascript libraries called moment.js and livestamp.js that this plugin makes use of.
