@@ -1,7 +1,7 @@
 <?php
 define('LAN_LIVETIME_INFO_MENU_TITLE', 'Project Info');
 
-define('LAN_LIVETIME_INFO_MENU_LOGO', '<div style="text-align: center"><img src="https://www.e107.space/projects/livetime/svg" alt="Mentions" width="128" height="128"></div>');
+define('LAN_LIVETIME_INFO_MENU_LOGO', '<div style="text-align: center"><img src="https://www.e107.space/projects/livetime/svg" alt="Livetime" width="128" height="128"></div>');
 define('LAN_LIVETIME_INFO_MENU_SUBTITLE', '<br><h5>Project repo on GitHub:</h5>');
 define('LAN_LIVETIME_INFO_MENU_SUBTITLE_DEV', '<h5>Developer:</h5>');
 define('LAN_LIVETIME_INFO_MENU_DEV', '<p><small>Arun S. Sekher</small></p>');
