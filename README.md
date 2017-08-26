@@ -12,3 +12,12 @@ See the browser screen-cast gif animation below to see it in action, but 20x fas
 
 # How to use
 Its just a matter for e107 theme and plugin developers to use the above mentioned date method to parse date in their e107 projects and install this plugin. Rest is handled by the awesome javascript libraries called moment.js and livestamp.js that this plugin makes use of.
+
+# Update Libraries
+If you have bower installed, run the following command inside the livetime plugin directory to update the javascript libraries to latest versions.
+
+```sh
+# terminal
+
+$ bower update
+```  
